@@ -1,6 +1,9 @@
 # next-react-memo
 Next.js、Reactのメモ
 
+# Next.jsの考え方
+https://zenn.dev/akfm/books/nextjs-basic-principle/viewer/intro
+
 ### Reactのコンテンツ
 - React Road
 
