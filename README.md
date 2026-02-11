@@ -1,6 +1,44 @@
 # next-react-memo
 Next.js、Reactのメモ
 
+# Node.jsのバージョンアップ方法
+Mac / Linux の場合
+① nvmが入っているか確認
+```
+nvm -v
+```
+出なければインストール：
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+```
+その後ターミナル再起動。
+
+② Node最新版インストール
+安定LTS（おすすめ）
+```
+nvm install 22
+```
+または
+```
+nvm install 20.19.0
+```
+③ 使うバージョンを切り替え
+```
+nvm use 22
+```
+
+④ デフォルトに設定
+```
+nvm alias default 22
+```
+
+⑤ 確認
+```
+node -v
+```
+
+→ v22.x.x ならOK
+
 # Next.jsの考え方
 https://zenn.dev/akfm/books/nextjs-basic-principle/viewer/intro
 
